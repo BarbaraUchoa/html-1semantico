@@ -4,5 +4,12 @@ html{
 }
 
 body{
-    color:crimson
+    color:rgb(58, 10, 102);
+}
+
+h2 {
+    color:rgb(165, 42, 157);
+    line-height: 2;
+    font-weight: bold;
+    font-size: 22pt;
 }
