@@ -1,3 +1,4 @@
+/*style externo*/
 
 html{
     scroll-behavior: smooth ;
@@ -7,9 +8,45 @@ body{
     color:rgb(58, 10, 102);
 }
 
-h2 {
-    color:rgb(165, 42, 157);
-    line-height: 2;
+.titulo-de-pagina {
+    color:  #FFA1F5;                                                                                               
+    line-height: 1,5;
     font-weight: bold;
     font-size: 22pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo-de-artigo{
+    color:#BC7AF9;
+    line-height: 1,5;
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+.titulo-de-secao {
+    color:#F8FF95;
+    line-height: 1,8;
+    font-weight: bold;
+    font-size: 18pt;
+}
+.subtitulo-de-artigo {
+    color: #A6FF96;
+    line-height: 1,5;
+    font-size: 18pt;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+p {
+ color:black;
+  line-height: 1,5;
+}
+.paragrafo-de-artigo {
+background-color: #053B50;
+padding: 20px 20px 0 20px;
+text-align: center;
+}
+article {
+    border-radius: 4px  #9dc4d2;
+    padding: 20px;
+    margin:20px 0;
 }
