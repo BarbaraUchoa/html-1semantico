@@ -1,15 +1,15 @@
 /*style externo*/
 :root {
-    --cor-primaria: #ffff00;
-    --cor-secundaria:#662549;
-    --cor-terciaria: #AE445A;
-    --cor-quaternaria:#d8d2f9;
-    --cor-fundo: #c3c3f3;
+    --cor-primaria: #aaaa07;
+    --cor-secundaria:#d64e99;
+    --cor-terciaria: #ee91da;
+    --cor-quaternaria:#4f32f1;
+    --cor-fundo: #c565b8;
     --margem-paragrafos: 20px;
 }
 
 html{
-    scroll-behavior: smooth ;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -17,7 +17,7 @@ body{
 }
 
 .titulo-de-pagina {
-    color:  var(--cor-secundaria);                                                                                               
+    color:  var black;                                                                                               
     line-height: 1,5;
     font-weight: bold;
     font-size: 22pt;
@@ -25,7 +25,7 @@ body{
 }
 
 .titulo-de-artigo{
-    color:var(--cor-terciaria);
+    color:#ee91da;
     line-height: 1,5;
     font-weight: bold;
     font-size: 18pt;
@@ -33,9 +33,10 @@ body{
 
 .titulo-de-secao {
     color: var(--cor-primaria);
-    line-height: 1,8;
+    line-height: 1,5;
     font-weight: bold;
     font-size: 18pt;
+    
 }
 .subtitulo-de-artigo {
     color: var(--cor-fundo);
@@ -47,24 +48,38 @@ body{
 p {
  color:black;
   line-height: 1,5;
+
 }
 .paragrafo-de-artigo ~ .paragrafo-de-artigo {
-background-color: #053B50;
+
 text-align: center;
 padding: 10px;
 
-
+}
+.paragrafo-de-artigo {
+    background-color: #fcc1ef;
+}
+.paragrafo-de-artigo:first-of-type {
+  border-radius: 20px 0 0 0;  
+}
+.paragrafo-de-artigo:last-of-type {
+    border-radius: 0 0 20px 0;
 }
 
+
+
+
 article {
+    border: 4px solid var(--cor-terciaria);
     border-radius: 4px  #9dc4d2;
     padding: 20px;
     margin:20px 0;
 }
 
 .menu-principal ul {
-    background-color:var(--cor-fundo);
+    background-color: #b6ccd4;
     list-style-type: georgian;
+    border: 4px solid var(--cor-terciaria);
 }
 .menu-principal li {
     color: var(--cor-fundo);
@@ -74,5 +89,5 @@ article {
     color: var(--cor-primaria)
 }
  
-(--!--espaço descentente,= > filhos, + irmão adjacente. ~irmãos--)
+
 
