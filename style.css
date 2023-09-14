@@ -1,4 +1,12 @@
 /*style externo*/
+:root {
+    --cor-primaria: #ffff00;
+    --cor-secundaria:#662549;
+    --cor-terciaria: #AE445A;
+    --cor-quaternaria:#d8d2f9;
+    --cor-fundo: #c3c3f3;
+    --margem-paragrafos: 20px;
+}
 
 html{
     scroll-behavior: smooth ;
@@ -9,7 +17,7 @@ body{
 }
 
 .titulo-de-pagina {
-    color:  #FFA1F5;                                                                                               
+    color:  var(--cor-secundaria);                                                                                               
     line-height: 1,5;
     font-weight: bold;
     font-size: 22pt;
@@ -17,36 +25,54 @@ body{
 }
 
 .titulo-de-artigo{
-    color:#BC7AF9;
+    color:var(--cor-terciaria);
     line-height: 1,5;
     font-weight: bold;
     font-size: 18pt;
 }
 
 .titulo-de-secao {
-    color:#F8FF95;
+    color: var(--cor-primaria);
     line-height: 1,8;
     font-weight: bold;
     font-size: 18pt;
 }
 .subtitulo-de-artigo {
-    color: #A6FF96;
+    color: var(--cor-fundo);
     line-height: 1,5;
     font-size: 18pt;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
 p {
  color:black;
   line-height: 1,5;
 }
-.paragrafo-de-artigo {
+.paragrafo-de-artigo ~ .paragrafo-de-artigo {
 background-color: #053B50;
-padding: 20px 20px 0 20px;
 text-align: center;
+padding: 10px;
+
+
 }
+
 article {
     border-radius: 4px  #9dc4d2;
     padding: 20px;
     margin:20px 0;
 }
+
+.menu-principal ul {
+    background-color:var(--cor-fundo);
+    list-style-type: georgian;
+}
+.menu-principal li {
+    color: var(--cor-fundo);
+}
+
+.menu-principal a {
+    color: var(--cor-primaria)
+}
+ 
+(--!--espaço descentente,= > filhos, + irmão adjacente. ~irmãos--)
+
